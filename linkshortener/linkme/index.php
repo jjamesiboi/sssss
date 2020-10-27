@@ -35,7 +35,7 @@
 					url: url
 				}, function(data, textStatus, xhr) {
 					var od = data;
-					data = 'http://downloadmycode.com/short?id=' + data;
+					data = 'http://codeswithjames.github.io/short?id=' + data;
 					$('.errors').html('<a href="' + data + '" target="_blank">sho.rt/' + od + '</a>')
 				});
 			});
